@@ -2,8 +2,7 @@ import random
 import requests
 from fastapi import FastAPI, Request
 
-LINE_TOKEN = "WcPQdwrkEjVvcYZJRdvwgDNIBYo8p+HvnO7J1GvNoSRGTXxipDKk9226do41F/Tp4kWAX770dgFS7MYQKuHGVc6+s+YR2UrWsCbMDKZYWZOrvFA/xkiZYS1gFEaPFztpLkwlP4KTMchM71f+6ajyEgdB04t89/1O/w1cDnyilFU=
-"
+LINE_TOKEN = "WcPQdwrkEjVvcYZJRdvwgDNIBYo8p+HvnO7J1GvNoSRGTXxipDKk9226do41F/Tp4kWAX770dgFS7MYQKuHGVc6+s+YR2UrWsCbMDKZYWZOrvFA/xkiZYS1gFEaPFztpLkwlP4KTMchM71f+6ajyEgdB04t89/1O/w1cDnyilFU="
 
 app = FastAPI()
 
